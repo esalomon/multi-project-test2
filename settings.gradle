@@ -1,1 +1,9 @@
 include 'myapp', 'myplugin'
+
+// this isn't really needed because
+// the default project name will be
+// myapp but the syntax here shows
+// how you could set the project name
+// if you wanted it to be anything
+// other than the directory name...
+project(':myapp').name = 'myapp'
